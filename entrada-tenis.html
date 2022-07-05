@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlySports</title>
+    <link  rel="icon"   href="/assets/img/3-removebg-preview.png" type="image/png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Link para iconos -->
+    <link href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <div class="nav_left">
+            <a class="navbar-brand" href="index.html">
+              <img src="/assets/img/3-removebg-preview.png" alt="">ONLYSPORTS
+            </a>
+            
+            <div class="d-none d-xxl-inline-flex ms-5" id="button-qr">
+              <a href="/error404.html"><button type="button" class="btn btn-primary">Descargá nuestra App <i id="icon-qr" class="fas fa-qrcode"></i></button></a>
+            </div>
+          </div>
+          
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse menu_toggler" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="ul-navbar">
+                <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/login.html">Ingresar <i class="fas fa-user"></i></a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Deportes
+                    </a>
+                    <ul class="dropdown-menu nav_sports col-1 me-1" aria-labelledby="navbarDropdown">
+                    <div> <li><a class="dropdown-item" href="#">Básquet</a></li></div>  
+                    <div> <li><a class="dropdown-item" href="#">Fútbol</a></li></div> 
+                    <div> <li><a class="dropdown-item" href="#">Rugby</a></li></div>  
+                    <div> <li><a class="dropdown-item" href="/entrada-tenis.html">Tenis</a></li></div>  
+                    <div> <li><hr class="dropdown-divider"></li></div>  
+                    <div> <li><a class="dropdown-item" href="#">Otros</a></li></div>  
+                  </ul>
+                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/contact.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/galeria.html">Galería</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/about-us.html">Acerca de nosotros</a>
+                  </li>
+                  <!-- Button modal suscipción -->
+                  <li><a class="nav_suscription d-flex align-self-center" href="#"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Suscripción
+                  </button></a></li>
+                  <!-- Fin modal suscripción -->
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          
+          <!-- Final Navbar -->
+          
+<!-- Modal SUSCRIPCIÓN-->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header d-flex justify-content-beetwen">
+        <div> </div>
+        <div> <h5 class="modal-title" id="staticBackdropLabel">Crear Cuenta</h5> </div>
+        <div> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> </div>
+        
+        
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <form class=" ">
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="name">
+                      <span id="basic-addon1">Nombre</span>
+                    </label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="name" placeholder="Nombre" 
+                    aria-label="Nombre" 
+                    minlength="3" 
+                    maxlength="25" 
+                    aria-describedby="basic-addon1" 
+                    required>
+                  </div>
+                
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="surname">
+                      <span id="basic-addon2">Apellido</span>
+                    </label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="surname" 
+                    placeholder="Apellido" 
+                    aria-label="Apellido" 
+                    minlength="3" 
+                    maxlength="25" 
+                    aria-describedby="basic-addon2" 
+                    required>
+                  </div>
+                
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="tel">
+                      <span  id="basic-addon3">Teléfono</span>
+                    </label>
+                      <input 
+                      type="tel" 
+                      class="form-control" 
+                      id="tel"
+                      placeholder="(012)345-6789" 
+                      aria-label="(012)345-6789" 
+                      minlength="10" 
+                      maxlength="12" 
+                      title="Máximo de 12 caracteres (1-9, espaciado y paréntesis)." 
+                      pattern="[0-9 ()-]{10,12}" 
+                      aria-describedby="basic-addon3" 
+                      required>
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="email">
+                      <span id="basic-addon4">Email</span>
+                    </label>
+                    <input 
+                    type="email" 
+                    class="form-control" 
+                    id="email"
+                    placeholder="nombre@ejemplo.com" 
+                    aria-label="nombre@ejemplo.com" 
+                    aria-describedby="basic-addon4" 
+                    required>
+                  </div>
+                  <select 
+                  id="basic-addon5" 
+                  class="form-select form-select-lg mb-3 input-group-text" 
+                  aria-label=".form-select-lg example" 
+                  required>
+                    <option selected disabled value="">Ciudad de residencia</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Cordoba">Cordoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Rios">Entre Rios</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquen">Neuquen</option>
+                    <option value="Rio Negro">Rio Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis">San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Sgo. del Estero">Sgo. del Estero</option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                   <option value="Tucuman">Tucuman</option>
+                  </select>
+                
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="user-name">
+                      <span id="basic-addon5">Nombre de usuario</span>
+                    </label>
+                    <input 
+                    type="text" 
+                    class="form-control" 
+                    id="user-name" 
+                    placeholder="@ejemplo.com" 
+                    aria-label="@ejemplo.com" 
+                    aria-describedby="basic-addon5" 
+                    required>
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="basic-addon6">
+                      <span id="basic-addon6">Contraseña</span>
+                    </label>
+                    <input 
+                    type="password" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    title="Mínimo 8 caracteres (al menos un número, una mayúscula y minúscula)." 
+                    placeholder="********" 
+                    class="form-control" 
+                    id="basic-url" 
+                    aria-describedby="basic-addon6" 
+                    required>
+                  </div>
+                
+                  <div class="input-group mb-3">
+                    <label class="input-group-text" for="basic-addon7">
+                      <span id="basic-addon7">Repetir contraseña</span>
+                    </label>
+                    <input 
+                    type="password" 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                    title="Mínimo 8 caracteres (al menos un número, una mayúscula y minúscula)." 
+                    placeholder="********" 
+                    class="form-control" 
+                    id="basic-url" 
+                    aria-describedby="basic-addon7" 
+                    required>
+                  </div>
+                  
+                  <div id="basic-addon9" class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Acepto recibir notificaciones por email.
+                    </label>
+                  </div>
+                  <br>
+                  <div class="d-flex justify-content-center">
+                    <button class="btn btn-success me-1" type="submit" >Suscribirme</button>
+                    <button type="button" class="btn btn-secondary ms-1" data-bs-dismiss="modal">Cancelar</button>
+                  </div>
+              </form>     
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin Modal SUSCRIPCIÓN -->
+
+</header>
+<!-- FINAL HEADER -->
+
+<!-- MAIN -->
+<main>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-0 col-md-1 col-lg-2 cols_entrada d-flex">
+        
+      </div>
+      
+
+      <div class="col-12 col-md-10 col-lg-8 center_entrada">
+        <h1 class="mt-4">Carlos Alcaraz ingresó al Top Ten e igualó el récord de Rafael Nadal</h1>
+        <div class="date">
+          <p>25/4/2022 | 09:41</p>
+        </div>
+        <div class="subtitle">
+          <h3>Con apenas 18 años, el joven español ocupa el 9º puesto del ranking ATP.</h3>
+        </div>
+        <img src="/assets/img/nadalyalcaraz-1.jpeg" alt="" class="col-12 suki">
+        <p class="d-flex justify-content-end text-light bg-secondary"> <span class="me-2"> Alcaraz y Nadal se saludan tras la semifinal en Indian Wells 2022. </span> </p>
+        <hr>
+        <p class="parraf_note"> El joven español Carlos Alcaraz, ganador de tres títulos este año, ingresó hoy al top ten del ranking mundial de tenis masculino, al posicionarse en el noveno escalón luego de su reciente coronación en el Abierto de Barcelona.</p>
+        <div class="video_alcaraz d-flex justify-content-center mb-3"> 
+          <iframe width="560" height="415" class="col-12" src="https://www.youtube.com/embed/QNeuWsjhbKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="parraf_note">Alcaraz, de 18 años, pupilo del ex Nº1 del mundo Juan Carlos Ferrero, es el jugador de menor edad en ubicarse dentro de ese círculo desde que su compatriota Rafael Nadal fue séptimo, con la misma edad, el 25 de abril de 2005.</p>
+          <p class="parraf_note"> Sin modificaciones, por delante del nuevo habitante del top ten se ubican el serbio Novak Djokovic (1), el ruso Daniil Medvedev (2), el alemán Alexander Zverev (3), Nadal (4), el griego Stefanos Tsitsipas (5), el italiano Matteo Berrettini (6), el noruego Casper Ruud (7) y el ruso Andrey Rublev (8); mientras que detrás suyo se encuentra el canadiense Felix Auger-Aliassime (10).</p>
+          <p class="parraf_note"> El argentino Diego Schwartzamen conservó la decimoquinta posición y el azuleño Federico Delbonis retrocedió dos lugares, al 36to. Los otros jugadores de la legión "albiceleste" se ubican de la siguiente manera: Francisco Cerúndolo (47º, +1), Federico Coria (52º), Sebastián Báez (59º, +1), Tomás Etcheverry (95º) y Facundo Bagnis (98º, +1).</p>
+
+        <div class="form_news_letter mt-5 mb-4 d-none d-sm-flex justify-content-center flex-column">
+          <p class="col-12">Recibí los Newsletters de OnlySports <span class="text-light"> sin costo</span></p>
+          <div class="col-12 d-flex justify-content-center ">
+            <input class="col-4 w-50" placeholder="Correo electrónico" type="email">
+            <button type="button" class="btn btn-success">Suscribirme</button>
+          </div>
+          </div>
+          <br>
+
+          <form class="m-1" action="">
+            <div class="form-group">
+              <label for="exampleInputName">Nombre</label>
+              <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Dirección de email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1"></label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <div class="d-flex justify-content-end"> <button type="button" class="btn btn-success mt-2">Publicar comentario</button></div>
+            </div>
+            <br>
+          </form>
+
+          <div class="entrada_coments mb-3">
+            <h3 class="ms-3 mb-4">Comentarios: <span class="text-danger">5</span></h3>
+            <div class="blog_coments d-flex">
+              <div class="img_perfil_coment" id="img_coment_1">
+                
+              </div>
+              <div class="text_coment mt-3 ms-2">
+                <div class="name_user_coment"><h4 class="me-2">Federico Murua <span class="text-muted small">8:01 | 30/04/2022</span></h4></div>
+                <div class="coment"><p>Primer comentario 💪</p></div>
+              </div>
+            </div>
+            <div class="blog_coments d-flex">
+              <div class="img_perfil_coment" id="img_coment_2">
+                
+              </div>
+              <div class="text_coment mt-3 ms-2">
+                <div class="name_user_coment"><h4 class="me-2">Guido Broll <span class="text-muted small">8:47 | 30/04/2022</span></h4></div>
+                <div class="coment">Excelente nota! Los sigo desde hace años</div>
+              </div>
+            </div>
+            <div class="blog_coments d-flex">
+              <div class="img_perfil_coment" id="img_coment_3">
+                
+              </div>
+              <div class="text_coment mt-3 ms-2">
+                <div class="name_user_coment"><h4 class="me-2">José Asetto <span class="text-muted small">9:15 | 30/04/2022</span></h4></div>
+                <div class="coment">👑 👏👏👏</div>
+              </div>
+            </div>
+            <div class="blog_coments d-flex">
+              <div class="img_perfil_coment" id="img_coment_4">
+                
+              </div>
+              <div class="text_coment mt-3 ms-2">
+                <div class="name_user_coment"><h4 class="me-2">Luna Méndes <span class="text-muted small">9:24 | 30/04/2022</span></h4> </div>
+                <div class="coment">Estoy interesada en trabajar con ustedes. Tienen algún mail de contacto?</div>
+              </div>
+            </div>
+            <div class="blog_coments d-flex">
+              <div class="img_perfil_coment" id="img_coment_5">
+                
+              </div>
+              <div class="text_coment mt-3 ms-2">
+                <div class="name_user_coment"><h4 class="me-2">Pedro Navaja <span class="text-muted small">11:55 | 30/04/2022</span></h4></div>
+                <div class="coment">La vida te da sorpresas, sorpresas te la la vida 🎵</div>
+              </div>
+            </div>
+          </div>
+      </div>  
+      <div class="col-0 col-md-1 col-lg-2 cols_entrada d-flex">
+        
+      </div>
+    </div>
+  </div>
+
+</main>
+<!-- Footer -->
+<footer class="footer_galeria">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 footer_cols" id="columna2" >
+        <div class="icons_footer"><a class="" href="/error404.html"> <i class="fab fa-instagram"></a></i></div>
+        <div class="icons_footer"><a class="" href="/error404.html"> <i class="fab fa-twitter"></a></i></div>
+        <div class="icons_footer"><a class="" href="/error404.html"> <i class="fab fa-youtube"></a></i></div>
+        <div class="icons_footer"><a class="" href="/error404.html"> <i class="fab fa-facebook"></a></i></div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 footer_cols" id="columna1">
+        <a class="footer-img-icon" href="index.html"><img src="/assets/img/3-removebg-preview.png" alt="" ></a>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 footer_cols" id="columna3">
+        © OnlySports Ventures. Todos los derechos reservados.
+        
+      </div>
+  </div>
+  </div>
+</footer>
+
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

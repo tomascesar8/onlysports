@@ -1,0 +1,1039 @@
+:root{
+    --color-granate: #212738;
+    /* no es granate sino cadete del espacio */
+    --color-verde-aguila: #0F5257;
+    --color-lavanda: #6D6875;
+    --color-gris-topo: #7A7682;
+    --color-gris-claro: #C8D0CD;
+    --color-gainsboro: #DCE2E5;
+    --color-siena-oscuro: #2c0f14;
+    --color-rojo-toscano: #410c13;
+    --color-malva-topo: #926269;
+    --color-siena-oscuro2: #21090d;
+    --color-footer: #1B1B1E;
+    
+    
+}
+
+
+
+.fixed_contact{
+    position: fixed;
+    right: 8%;
+    top: 18%;
+    background-color: var(--color-rojo-toscano);
+    padding: 20px;
+    border-radius: 1em;
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#main_404{
+    height: 81% !important;
+}
+
+#img_404{
+    background-image: url(../assets/img/eeeea.JPG);
+    background-size: contain;
+    background-position: center;
+    width: 60vw;
+    height: 60vh;
+    background-repeat: no-repeat;    
+}
+
+.col_medium_404{
+    background-image: url(../assets/img/404full.png);
+    background-size: cover !important;
+    height: 84vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .fixed_contact ul{
+    padding: 0;
+    font-size: larger;
+    font-size: 29px;
+    border-radius: 4rem !important;
+    list-style: none;
+    
+
+}
+
+.item_fixed_contact{
+    width: 30vw !important;
+    padding: 10px 100px !important;
+    background-color: var(--color-verde-aguila) !important;
+    border: solid var(--color-siena-oscuro) 5px !important;
+    list-style: none;
+    border-style: solid;
+    border-width: 0px 0px 5px 0px !important;
+    box-shadow: 6px 5px 15px 0px #000000;
+} */
+
+.item_fixed_contact:hover{
+    transform: scale(1.05) !important;
+    background-color: var(--color-granate) !important;
+
+}
+
+
+
+.modal-content{
+    background-color: var(--color-granate) !important;
+    border: 5px var(--color-gris-topo) solid !important  ;
+    box-shadow: 6px 5px 15px 0px #000000;
+    color: white;
+}
+
+.modal-header {
+    border-bottom: 0px !important;
+    border-top: 0px !important;
+    padding: 1rem 1rem .5rem 1rem !important;
+}
+.modal-footer{
+    border-top: 0px !important;
+    padding: .2rem 1rem 1rem 1rem !important;
+}
+
+#basic-addon9 label{
+    color: white;
+}
+
+.btn-close{
+    margin-right: 3px !important;
+    background-color: white !important;
+}
+
+.input-group:hover{
+    transform: scale(1.005);
+    opacity: .85;
+}
+
+
+
+.nav_left{
+    width: 35vw !important;
+}
+
+.navbar{
+    background-color:  var(--color-granate);
+    height: 12vh;
+    
+}
+
+/* nav {
+    height: 12vh;
+} */
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif !important;
+    ;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header{
+    margin-top: 7vh;
+    background-color: black;
+}
+
+.title-main{
+    color: var(--color-gainsboro);
+
+}
+
+.center_entrada h1{
+    color: var(--color-rojo-toscano);
+    margin-top: 10px !important;
+}
+
+h2{
+    font-size: 40px !important;
+    margin-bottom: 20px !important;
+}
+
+.carousel-caption{
+    background-color: rgba(8, 0, 0, .85);
+    color: white !important;
+    font-size: 18px;
+    
+}
+
+h5{
+    color: orange;
+    font-size: 25px !important;
+}
+
+#ul-navbar {
+    margin-top: 5px;
+    text-align: right;
+}
+
+
+
+/* .dropdown-item{
+    color: white !important;
+} */
+
+nav img, footer img{
+    width: 20%;   
+}
+
+#icon-qr{
+    transform: translate(50%);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    background-color:  var(--color-rojo-toscano); 
+}
+
+.main_searcher{
+    height: 30px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.main_searcher label button {
+    height: 32px;
+    border: solid 1px ;
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+}
+
+.cards {
+    margin: 8px 0px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    /* border: solid red 5px; */
+    border-radius: 1rem !important;
+    box-shadow: 6px 8px 15px 5px #000000;
+    transition: all 300ms;
+}
+
+.cards:hover{
+    transform: scale(1.03);
+    transition: all 300ms;
+}
+
+.cards_galeria {
+    margin: 15px 15px 5px 8px;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    /* border: solid red 5px; */
+    border-radius: 1rem !important;
+    box-shadow: 6px 5px 15px 0px #000000;
+    transition: all 300ms;
+    /* width: 24% !important; */
+    width: auto;
+    cursor: zoom-in;
+}
+
+.cards_galeria:hover{
+    transform: scale(1.05);
+    transition: all 500ms;
+}
+
+.main_contact{
+    height: 100%;
+}
+
+.front_cards{  
+    height: 35vh;
+    width: 100%;
+    border-radius: 1rem !important;
+    color: white;
+    font-size: 50px;
+    background-color: rgba (0, 0, 0, 0);
+}
+
+.front_cards:hover{
+    background-color: rgba(8, 0, 0, .8);
+    transition: all 200ms;
+}
+
+.text_card{
+    opacity: 0;
+    height: 35vh;
+    width: 80%;
+    border-radius: 1rem !important;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 12%;
+    
+}
+
+.text_card:hover{
+    opacity: 1;
+}
+
+
+#card_1{
+    background-image: url(../assets/img/alcaraz.JPG);
+}
+#card_2{     
+    background-image: url(../assets/img/jokic-curry-getty.jpg );
+}
+#card_3{
+    background-image: url(../assets/img/xgames-chiba.jpg);
+}
+#card_4{
+    background-image: url(../assets/img/galeria/messi-depaul-paredes1.JPG);
+}
+#card_5{
+    background-image: url(../assets/img/bmx-u2.jpg);
+    background-position: top;
+}
+#card_6{
+    background-image: url(../assets/img/talleres-players.jpg);
+}
+
+#card_1_pag2{
+    background-image: url(../assets/img/arg-depaul-team.JPG);
+}
+#card_2_pag2{
+    background-image: url(../assets/img/skate-fem.jpg);
+}
+#card_3_pag2{
+    background-image: url(../assets/img/maradona1.jpg);
+}
+#card_4_pag2{
+    background-image: url(../assets/img/curry.jpg);
+}
+#card_5_pag2{
+    background-image: url(../assets/img/nadal.jpg);
+}
+#card_6_pag2{
+    background-image: url(../assets/img/grupos-catar1.JPG);
+}
+
+#card_1_galeria{
+    background-image: url(../assets/img/galeria/maradona1.jpg);
+}
+#card_2_galeria{
+    background-image: url(../assets/img/galeria/maradona3.jpg);
+}
+#card_3_galeria{
+    background-image: url(../assets/img/galeria/maradona-pelota.jpg);
+}
+#card_4_galeria{
+    background-image: url(../assets/img/galeria/maradona2.jpg);
+}
+#card_5_galeria{
+    background-image: url(../assets/img/galeria/maradona-copa.jpg);
+}
+#card_6_galeria{
+    background-image: url(../assets/img/galeria/diego.jpg);
+    background-position: top;
+}
+#card_7_galeria{
+    background-image: url(../assets/img/galeria/maradonacopa.jpg);
+}
+#card_8_galeria{
+    background-image: url(../assets/img/galeria/diego-messi.jpg);
+}
+#card_9_galeria{
+    background-image: url(../assets/img/galeria/img-messi-arg2.jpg);
+}
+#card_10_galeria{
+    background-image: url(../assets/img/galeria/messi-america.jpg);
+}
+#card_11_galeria{
+    background-image: url(../assets/img/galeria/messi-feliz.jpg);
+    background-position: top;
+}
+#card_12_galeria{
+    background-image: url(../assets/img/galeria/arg-depaul-team.JPG);
+}
+#card_13_galeria{
+    background-image: url(../assets/img/galeria/arg-messi.JPG);
+}
+#card_14_galeria{
+    background-image: url(../assets/img/galeria/curry.jpg);
+}
+#card_15_galeria{
+    background-image: url(../assets/img/galeria/talleres-players.jpg);
+}
+#card_16_galeria{
+    background-image: url(../assets/img/galeria/nadal.jpg);
+}
+#card_17_galeria{
+    background-image: url(../assets/img/galeria/alcaraz.JPG);
+}
+#card_18_galeria{
+    background-image: url(../assets/img/galeria/skate1.jpg);
+}
+#card_19_galeria{
+    background-image: url(../assets/img/galeria/bmx-u2.jpg);
+    background-position: top;
+}
+#card_20_galeria{
+    background-image: url(../assets/img/galeria/nadalyalcaraz-1.jpeg);
+}
+#card_21_galeria{
+    background-image: url(../assets/img/galeria/big-bmx.jpg);
+}
+#card_22_galeria{
+    background-image: url(../assets/img/galeria/img-basket-ball.jpg);
+    background-position: left;
+}
+#card_23_galeria{
+    background-image: url(../assets/img/galeria/skate-fem.JPG);
+}
+#card_24_galeria{
+    background-image: url(../assets/img/galeria/u-xgames1.jpg);
+}
+
+
+
+#main_col_left{  
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#main_col_left a{
+text-decoration: none;
+}
+
+#main_col_right {
+    background-color: var(--color-gris-claro);
+    border-radius: 2rem;
+
+}
+
+.main_categories{
+    background-color: var(--color-siena-oscuro2);
+}
+
+#main_col_right li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+#container-slider, .carousel-item img {
+    height: 72vh;
+}
+
+.banner_col_right{
+    display: flex !important;
+    justify-content: center !important;
+    background-color:  #020A2F;
+    border-top: solid 16px var(--color-siena-oscuro2);
+    border-bottom: solid 30px var(--color-siena-oscuro2);
+    border-right: solid 10px var(--color-siena-oscuro2);
+    border-left: solid 11px var(--color-siena-oscuro2);
+    
+
+}
+
+
+/* #nav-pagination{
+CENTRAR PAGINADO
+} */
+
+.footer_index {
+    background-color: #1B1B1E;  
+    color: #EBEBD3;
+    border-top: solid 10px var(--color-rojo-toscano);
+    
+}
+
+.footer_galeria {
+    background-color: #1B1B1E;  
+
+    color: #EBEBD3;
+    
+    
+}
+
+.pagination a {
+    font-size: 20px;
+}
+
+.footer_cols{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12vh;
+}
+
+.icons_footer a {
+    color: var(--color-gainsboro);
+}
+
+.icons_footer a:hover {
+    color: var(--color-lavanda);
+}
+
+#columna2{
+    font-size: 30px;
+    justify-content: space-around;
+    
+}
+
+
+#columna1 a {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    transform: translateY(-15%);
+}
+
+/* .carousel-control-prev{
+    transform: translate(-25%, -10%);
+}
+
+.carousel-control-next{
+    transform: translate(25%, -10%);
+} */
+
+.main_banner{
+    height: 65vh;
+    background-image: url(../assets/img/arg-scheiner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main_categories .list-group-item{
+    background-color: var(--color-verde-aguila);
+}
+
+.main_categories .list-group-item:hover{
+    background-color: rgba(15, 82, 87, .7) ;
+    color: var(--color-gainsboro);
+}
+
+/* #top_categories{
+    border-radius: .4em .4em 0rem 0rem !important;
+}
+.main_categories .bottom_categories{
+    border-radius: 0rem 0rem .4em .4em !important;
+} */
+
+
+
+
+.list-unstyled a{
+    color: var(--color-gainsboro);
+    font-weight: bold;
+}
+.list-unstyled a p{
+cursor: pointer;
+}
+
+.blog_coments{
+    height: 14.5vh;
+    border: solid 2px var(--color-verde-aguila) ;
+    border-radius: 2rem;
+    margin: 10px;
+    box-shadow: 1px 5px 10px 0px var(--color-gris-topo) ;
+}
+
+.img_perfil_coment{
+    width: 75px;
+    height: 75px;
+    border-radius: 1rem;
+    margin: 10px 10px 10px 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#img_coment_1{
+    background-image: url(../assets/img/maradona-pelota.jpg);
+}
+
+#img_coment_2{
+    background-image: url(../assets/img/maradona-copa.jpg);       
+}
+
+#img_coment_3{
+    background-image: url(../assets/img/maradona2.jpg);       
+}
+
+#img_coment_4{
+    background-image: url(../assets/img/avatar-1577909_960_720.png);   
+}
+
+#img_coment_5{
+    background-image: url(../assets/img/maradona4.jpg);   
+}
+
+.time_date_coment{
+    font-size: 12px !important;
+}
+
+@media screen and (min-width:460px){
+    .cards{
+        height: 47vh !important;
+    }
+    .carousel-caption{
+        font-size: 25px ;
+    }
+}
+
+/* @media screen and (min-width:1200px){
+    .carousel-control-prev {
+        transform: translate(-20%, -10%) !important;
+    }
+    .carousel-control-next{
+        transform: translate(20%, -10%) !important;
+    }
+
+} */
+
+
+@media screen and (max-width:815px){
+    .text_coment{
+        font-size: smaller;
+    }
+
+    h4{
+        font-size: 20px !important;
+        margin-top: 0px !important;
+    }
+    
+}
+    
+@media screen and (max-width:576px){
+    .main_banner{
+        display: none;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        transform: translateY(-20%);
+    }
+
+    .form_news_letter {
+        display: none !important;
+    }
+
+    h4 span{
+        display: block;
+        }
+
+    .blog_coments{
+        height: auto;
+    }
+
+    .text_coment{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:600px){
+    .cards{
+        width: 49% !important;
+        height: 35vh !important;
+    }
+    .banner_col_right{
+        display: block;    
+    }
+}
+
+@media screen and (max-width:615px){
+    .banner_col_right{
+        display: none !important;
+    }
+    /* #card_5{
+        display: none !important;
+    }
+    #card_6{
+        display: none !important;
+    } */
+    
+    .front_cards{
+        height: 100% !important;
+    }
+
+    .main_categories{
+        background-color: var(--color-siena-oscuro2);
+        width: 100vw !important;
+    }
+}
+
+
+    @media screen and (max-width:992px){
+    
+        #container-slider, .carousel-item img {
+            height: 55vh;
+        }
+        .menu_toggler{
+            background-color: var(--color-footer) !important;
+            border: solid var(--color-gainsboro) 2px !important;
+            border-radius: 1rem 0rem 1rem 1rem !important;
+            
+            
+        }
+        .menu_toggler ul{
+            height: 10% !important;
+            display: flex !important;
+            flex-direction: row !important;
+            justify-content: space-around;
+            flex-wrap: wrap !important;
+            padding: 10px !important;
+        }
+        .menu_toggler ul li .nav-link{
+            color: var(--color-gainsboro) !important;
+            padding: 10px;
+            border-bottom: solid var(--color-gainsboro) 3px;
+            width:  !important;
+        }
+        .nav_suscription {
+            margin-top: 10px !important;
+            text-transform:  !important;
+        }
+            
+        .fixed_contact{
+            width: 50% !important;
+            right: 5%;
+        }
+    }
+
+    @media screen and (max-width:1200px){
+        .main_banner {
+            /* display: none !important; */
+            /* width: 80% !important; */
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center center;
+        }
+        
+        .nav_left{
+            width: 28vw !important;
+        }
+        .center_entrada h1{
+            margin-top: 50px !important;
+        }
+        .fixed_contact{
+            width: 40%;
+        }
+        #card_10_galeria, #card_22_galeria, #card_6_galeria{
+        background-position: top;
+        }
+    }
+@media screen and (max-width:767px){
+    #main_col_right {
+        width: 96vw !important;
+        transform: translate(2%);
+    }
+    #container-slider, .carousel-item img {
+        height: 47vh;
+    }
+
+    .cards_galeria{
+        width: 100% !important;
+        transform: translateX(-1.2%);
+        height: 100vh;
+    }
+
+    .footer_cols{
+        margin: 10px 0px 0px 0px;
+    }
+    nav img {
+        width: 30% !important;
+    }
+    footer img{
+        width: 100px !important;
+        transform: translateY(5%);
+    }
+    .fixed_contact{
+        right: 3% !important;
+        top: 14%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50% !important;
+    }
+    .menu_toggler ul{
+        height: 10% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: flex-end;
+        flex-wrap: wrap !important;
+        padding: 10px !important;
+    }
+    .menu_toggler .nav_about_us{
+        margin-bottom: 20px !important;
+    }
+    #img_404{
+        width: 500px ;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width:1300px){
+    .center_entrada, .center_entrada_login, .center_about_us{
+        --bs-gutter-x: 10% !important;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .center_entrada, .center_entrada_login, .center_about_us {
+        --bs-gutter-x: 5% !important;
+    }
+    .center_entrada, .center_entrada_login, .center_about_us {
+        --bs-gutter-y: 1.9rem  !important;
+    }
+    nav img, footer img {
+        width: 15% !important;
+    }
+    
+    .cards_galeria {
+        width: 20% !important;
+        }
+   
+}
+@media screen and (min-width:1400px){
+    .center_entrada, .center_entrada_login, .center_about_us {
+        --bs-gutter-x: 10% !important;
+    }
+}
+
+
+
+@media screen and (max-width:460px){
+    #container-slider, .carousel-item img {
+        height: 40vh;
+        margin-top: 17px;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        transform: translateY(-25%);
+    }
+
+    .cards_galeria{
+        height: 40vh;
+    }
+    
+}
+
+@media screen and (max-width:330px){
+    .form_login h1{
+        font-size: 38px !important;
+    }
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px !important;
+    }
+    .input-group input, .input-group span {
+        font-size:  !important;
+        width: auto !important;
+        
+    }
+.input-group input{
+    border-radius: 0px 0px 5px 5px !important;
+    margin-left: .1px !important;
+}
+.input-group span{
+    border-radius: 5px 5px 0px 0px !important;
+}
+.table_calendar td{
+    font-weight:  5px !important;
+}
+
+}
+
+@media screen and (min-width:992px){
+    
+    .banner_col_right{
+        border-radius: 0 0 1rem 1rem;
+        }
+        .fixed_contact .form-control {
+            padding: 10px !important;
+        }
+        .fixed_contact{
+            height: 60vh !important;
+        }
+    
+}
+
+@media screen and (max-width:576px){
+    .fixed_contact{
+    top: 13% !important;
+    width: 65% !important;
+    height: 50vh !important;
+}
+
+.form_contact{
+    transform: translateY(-10%);
+}
+    
+}
+@media screen and (max-width:400px){
+    .fixed_contact{
+        top: 13% !important;
+        left: 1%;
+        width: 100% !important;
+        height: 50vh !important;
+    }
+    .form_contact{
+        transform: translateY(-10%);
+    }
+    .parraf_about-us{
+        font-size: 18px !important;
+    }
+    #container-slider, .carousel-item img {
+        height: 33vh;
+        margin-top: 17px;
+    }
+    #columna3 {
+        font-size: 12px !important;
+        margin-bottom: 0 !important;
+    }
+}
+
+@media screen and (min-width:840px){
+    .text_about_us{
+        padding-left: 3% !important;
+        
+    } 
+    }
+    @media screen and (min-width:880px){
+        .text_about_us{
+            padding-left: 3% !important;
+            
+        } 
+        }
+        @media screen and (min-width:900px){
+            .text_about_us{
+                padding-left: 5% !important;
+                
+            } 
+            }
+        @media screen and (min-width:920px){
+            .text_about_us{
+                padding-left: 7% !important;
+                
+            } 
+            }
+        
+
+.center_entrada, .center_entrada_login, .center_about_us{
+    background-color: var(--color-gainsboro);
+}
+
+.center_entrada_login {
+    border-top: solid var(--color-gainsboro) 14px !important;
+    border-bottom: solid var(--color-gainsboro) 34px !important;
+}
+.center_about_us{
+    border-top: solid var(--color-gainsboro) 14px !important;
+    border-bottom: 0px !important;
+}
+
+.title-main h1{
+    
+}
+
+.form_login h1, {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 45px;
+}
+.img_login{
+    margin-top: 30px !important;
+    margin-bottom: ;
+}
+.center_entrada_galeria{
+    background-color: var(--color-siena-oscuro2);
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: solid 10px var(--color-siena-oscuro2);
+    border-top: solid 10px var(--color-siena-oscuro2);
+    --bs-gutter-y: 1.5rem  !important;
+    
+}
+
+.cols_entrada{
+    background-color: var(--color-rojo-toscano);
+}
+
+.col_galeria_paint{
+    height: 100% !important;
+    background-color: var(--color-rojo-toscano); 
+}
+
+.form_news_letter {
+    height: 20vh;
+    background: linear-gradient(to right,#30a9ad 30%,#0980bc 70%);
+}
+
+.form_news_letter, .form_news_letter input {
+    font-family: 'Noto Serif JP',serif;
+    font-size: 19.5px;
+    font-weight: 600;
+    text-align: center;
+    color: #43494b;
+}
+
+.video_alcaraz {
+    background-color: var(--color-gainsboro) !important;
+}
+
+.parraf_note {
+    text-indent: 0.5em;
+}
+
+.title_card6{
+    
+}
+
+.franja_bordo {
+    background-color: var(--color-siena-oscuro2) ;
+
+}
+
+#button-facebook {
+    background-color: #3B5998;
+}   
+
+.parraf_about-us{
+    font-size: 22px;
+    text-indent: 0.2em;
+    text-align: left !important;
+}
+.parraf_note span{
+    font-weight: bold;
+    color: #4F4B50;
+}
+/* @media screen and (max-width:768px){
+    .cat_and_banner{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+} */
+/* 
+.main-banner{
+    width: 49% !important;
+    display: !important;
+} */
