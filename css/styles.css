@@ -161,13 +161,13 @@ h2{
 .carousel-caption{
     background-color: rgba(8, 0, 0, .85);
     color: white !important;
-    font-size: 18px;
+    font-size: 30px !important;
     
 }
 
 h5{
     color: orange;
-    font-size: 25px !important;
+    font-size: 30px !important;
 }
 
 #ul-navbar {
@@ -431,7 +431,7 @@ text-decoration: none;
 
 
 #container-slider, .carousel-item img {
-    height: 72vh;
+    height: 85vh;
 }
 
 .banner_col_right{
